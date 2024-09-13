@@ -1,8 +1,9 @@
 <?php
-$host = 'srv1642.hstgr.io';
-$dbname = 'u901317468_assetlab';
-$username = 'u901317468_scientist';
-$password = 'Assetlab.com_apoorv137';
+//fill the values
+$host = 'host_name';
+$dbname = 'dbname';
+$username = 'username';
+$password = 'pass';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
